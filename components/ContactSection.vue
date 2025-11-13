@@ -32,7 +32,7 @@
               </div>
               <div>
                 <div class="font-semibold text-foreground">E-Mail</div>
-                <a href="mailto:info@mukhtar-umzuge.de" class="text-primary hover:underline">info@mukhtar-umzuge.de</a>
+                <a href="mailto:kontakt@ah-umzuege.de" class="text-primary hover:underline">kontakt@ah-umzuege.de</a>
               </div>
             </div>
             

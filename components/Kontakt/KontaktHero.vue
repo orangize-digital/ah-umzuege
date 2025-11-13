@@ -12,7 +12,7 @@
           <PhoneIcon class="h-5 w-5 mr-2" />
           Sofort anrufen
         </a>
-        <a href="mailto:info@mukhtar-umzuge.de" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors flex items-center justify-center">
+        <a href="mailto:kontakt@ah-umzuege.de" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors flex items-center justify-center">
           <MailIcon class="h-5 w-5 mr-2" />
           E-Mail senden
         </a>

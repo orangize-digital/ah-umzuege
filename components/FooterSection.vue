@@ -57,7 +57,7 @@
             </div>
             <div class="flex items-center space-x-3">
               <Mail class="h-4 w-4 text-sidebar-accent" />
-              <a href="mailto:info@mukhtar-umzuge.de" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">info@mukhtar-umzuge.de</a>
+              <a href="mailto:kontakt@ah-umzuege.de" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">kontakt@ah-umzuege.de</a>
             </div>
             <div class="flex items-center space-x-3">
               <MapPin class="h-4 w-4 text-sidebar-accent" />
