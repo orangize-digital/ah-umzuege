@@ -34,7 +34,7 @@ const projects = [
     title: "Familienumzug Hamburg-Berlin",
     description: "Kompletter Haushaltsumzug einer 5-köpfigen Familie mit Verpackungsservice und Möbelmontage.",
     location: "Hamburg → Berlin",
-    date: "März 2024",
+    date: "März 2025",
     icon: HomeIcon
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     title: "Büroumzug Startup",
     description: "Umzug eines Tech-Startups mit 50 Arbeitsplätzen inklusive IT-Equipment und Serverumzug.",
     location: "München Innenstadt",
-    date: "Februar 2024",
+    date: "Februar 2025",
     icon: BuildingIcon
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     title: "Fernumzug nach Österreich",
     description: "Internationaler Umzug mit Zollabwicklung und Lagerung für eine Übergangslösung.",
     location: "Köln → Wien",
-    date: "Januar 2024",
+    date: "Januar 2025",
     icon: TruckIcon
   },
   {

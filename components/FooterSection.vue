@@ -71,7 +71,7 @@
       <!-- Bottom Bar -->
       <div class="border-t border-sidebar-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
         <p class="text-sidebar-foreground/60 text-sm">
-          © 2024 A.H Entrümpelung & Umzüge. Alle Rechte vorbehalten.
+          © 2025 A.H Entrümpelung & Umzüge. Alle Rechte vorbehalten.
         </p>
         <div class="flex space-x-6 mt-4 md:mt-0">
           <NuxtLink to="/impressum" class="text-sidebar-foreground/60 hover:text-sidebar-accent text-sm transition-colors">Impressum</NuxtLink>
