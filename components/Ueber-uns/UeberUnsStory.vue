@@ -4,7 +4,7 @@
       <div class="text-center mb-16">
         <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Unsere Geschichte</h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Von kleinen Anfängen zu einem der vertrauenswürdigsten Umzugsunternehmen der Region
+          Von kleinen Anfängen zu einem der vertrauenswürdigsten Entrümpelungsunternehmen der Region
         </p>
       </div>
 
@@ -21,22 +21,22 @@
             <div class="border-l-4 border-orange-600 pl-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">2008 - Die Anfänge</h3>
               <p class="text-gray-600">
-                A.H Entrümpelung & Umzüge wurde mit der Vision gegründet, Umzüge stressfrei und professionell zu gestalten. 
+                A.H Entrümpelung & Umzüge wurde mit der Vision gegründet, Entrümpelungen stressfrei und professionell zu gestalten.
                 Mit einem kleinen Team und großen Träumen begannen wir unsere Reise.
               </p>
             </div>
             <div class="border-l-4 border-orange-600 pl-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">2015 - Expansion</h3>
               <p class="text-gray-600">
-                Durch zufriedene Kunden und Mundpropaganda wuchsen wir stetig. Wir erweiterten unser Team 
-                und unsere Fahrzeugflotte, um noch mehr Familien beim Umzug zu helfen.
+                Durch zufriedene Kunden und Mundpropaganda wuchsen wir stetig. Wir erweiterten unser Team
+                und unsere Fahrzeugflotte, um noch mehr Familien bei der Entrümpelung zu helfen.
               </p>
             </div>
             <div class="border-l-4 border-orange-600 pl-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Heute - Ihr Partner</h3>
               <p class="text-gray-600">
-                Mit über 15 Jahren Erfahrung und mehr als 1000 erfolgreichen Umzügen sind wir stolz darauf, 
-                Ihr vertrauensvoller Partner für alle Umzugs- und Transportbedürfnisse zu sein.
+                Mit über 15 Jahren Erfahrung und mehr als 1000 erfolgreichen Entrümpelungen sind wir stolz darauf,
+                Ihr vertrauensvoller Partner für alle Entrümpelungs- und Entsorgungsbedürfnisse zu sein.
               </p>
             </div>
           </div>

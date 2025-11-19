@@ -52,6 +52,56 @@
           </div>
         </div>
 
+        <!-- Umzüge -->
+        <div id="umzuege" class="scroll-mt-20">
+          <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div class="rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&auto=format&fit=crop"
+                  alt="Umzüge Service"
+                  class="w-full h-[400px] object-cover"
+                />
+              </div>
+            </div>
+            <div>
+              <div class="inline-block bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                Stressfrei umziehen
+              </div>
+              <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Umzüge
+              </h2>
+              <p class="text-lg text-gray-600 mb-6">
+                Ihr professioneller Partner für private Umzüge. Wir machen Ihren Umzug
+                zum stressfreien Erlebnis - mit erfahrenem Team, modernen Fahrzeugen
+                und umfassendem Service.
+              </p>
+              <ul class="space-y-4 mb-8">
+                <li class="flex items-start">
+                  <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <span class="text-gray-700">Privatumzüge jeder Größe</span>
+                </li>
+                <li class="flex items-start">
+                  <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <span class="text-gray-700">Fernumzüge deutschlandweit</span>
+                </li>
+                <li class="flex items-start">
+                  <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <span class="text-gray-700">Seniorenumzüge mit Betreuung</span>
+                </li>
+                <li class="flex items-start">
+                  <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+                  <span class="text-gray-700">Komplettservice mit Packhilfe</span>
+                </li>
+              </ul>
+              <NuxtLink to="/kontakt" class="inline-flex items-center bg-[#ed7f11] text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors">
+                Jetzt anfragen
+                <ArrowRight class="ml-2 h-5 w-5" />
+              </NuxtLink>
+            </div>
+          </div>
+        </div>
+
         <!-- Firmenumzug -->
         <div id="firmenumzug" class="scroll-mt-20">
           <div class="grid lg:grid-cols-2 gap-12 items-center">

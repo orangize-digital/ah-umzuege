@@ -73,8 +73,15 @@ File-based routing in `pages/` directory:
 ### Icons
 
 - **Lucide Vue Next**: All Lucide icons are registered globally via plugin at `plugins/lucide.ts`
-- Import icons in components: `import { TruckIcon, PhoneIcon } from 'lucide-vue-next'`
+- Import icons in components: `import { TruckIcon, PhoneIcon, MessageCircle } from 'lucide-vue-next'`
 - Icons used throughout navigation and components
+
+### Contact Information
+
+- **Phone Number**: +49 163 0182135 (`tel:+491630182135`)
+- **WhatsApp**: +49 163 0182135 (`https://wa.me/491630182135`)
+- **Email**: kontakt@ah-umzuege.de
+- **WhatsApp Color**: Primary green #25D366, hover #20BA5A
 
 ### SEO Implementation
 
@@ -112,7 +119,7 @@ The `NavHeader.vue` component:
 - Desktop dropdown menu for "Leistungen" (services) with hover interaction
 - Mobile menu with collapsible sections
 - Uses `ClientOnly` wrapper for mobile menu to prevent hydration issues
-- Includes direct phone call CTA: `tel:+4915123456789`
+- Includes direct phone call CTA: `tel:+491630182135` and WhatsApp button: `https://wa.me/491630182135`
 
 **Services submenu links** (both desktop and mobile):
 - Entrümpelung (#entruempelung)

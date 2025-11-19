@@ -18,21 +18,27 @@
         <div class="space-y-8">
           <div class="space-y-4">
             <h1 class="text-4xl lg:text-6xl font-bold text-white leading-tight drop-shadow-lg">
-              Ihr zuverlässiger
-              <span class="text-primary">Umzugspartner</span>
-              in Deutschland
+              Müssen Sie Ihre <br>
+              <span class="inline-block relative overflow-hidden" style="min-width: 280px;">
+                <span :class="['animated-word text-primary', { 'flip': isAnimating }]">{{ currentWord }}</span><br>
+              </span>
+              <span class="text-white">entrümpeln?</span>
             </h1>
             <p class="text-xl text-white/90 leading-relaxed drop-shadow-md">
-              Professionelle Umzüge und Transporte deutschlandweit.
-              Stressfrei umziehen mit über 15 Jahren Erfahrung.
+              Professionelle Entrümpelung deutschlandweit.
+              Schnell, zuverlässig und stressfrei mit über 15 Jahren Erfahrung.
             </p>
           </div>
 
           <!-- CTA Button -->
           <div class="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+4915123456789" class="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center shadow-xl">
+            <a href="tel:+491630182135" class="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center shadow-xl">
               <Phone class="mr-2 h-5 w-5" />
               Kostenlos anfragen
+            </a>
+            <a href="https://wa.me/491630182135" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#20BA5A] transition-colors flex items-center justify-center shadow-xl">
+              <MessageCircle class="mr-2 h-5 w-5" />
+              WhatsApp
             </a>
           </div>
 
@@ -120,7 +126,7 @@
                 v-model="form.message"
                 rows="3"
                 class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
-                placeholder="Beschreiben Sie kurz Ihren Umzug..."
+                placeholder="Beschreiben Sie kurz Ihre Entrümpelung..."
               ></textarea>
             </div>
 
@@ -154,8 +160,33 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { Phone, Shield, Clock, Star, Send } from 'lucide-vue-next'
+import { ref, onMounted, onUnmounted } from 'vue'
+import { Phone, Shield, Clock, Star, Send, MessageCircle } from 'lucide-vue-next'
+
+const words = ['Wohnung', 'Keller', 'Dachboden', 'Garage', 'Büro', 'Haus', 'Geschäft', 'Lager']
+const currentWord = ref(words[0])
+const isAnimating = ref(false)
+let wordIndex = 0
+let intervalId = null
+
+onMounted(() => {
+  intervalId = setInterval(() => {
+    isAnimating.value = true
+    setTimeout(() => {
+      wordIndex = (wordIndex + 1) % words.length
+      currentWord.value = words[wordIndex]
+    }, 200) // Change word in the middle of animation when opacity is 0
+    setTimeout(() => {
+      isAnimating.value = false
+    }, 400)
+  }, 2000)
+})
+
+onUnmounted(() => {
+  if (intervalId) {
+    clearInterval(intervalId)
+  }
+})
 
 const form = ref({
   name: '',
@@ -219,3 +250,34 @@ Nachricht: ${form.value.message || 'Keine Nachricht angegeben'}
   }
 }
 </script>
+
+<style scoped>
+.animated-word {
+  display: inline-block;
+  transform-style: preserve-3d;
+  transition: all 0.3s ease-in-out;
+}
+
+.animated-word.flip {
+  animation: cubeFlip 0.4s ease-in-out;
+}
+
+@keyframes cubeFlip {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateX(90deg);
+    opacity: 0;
+  }
+  51% {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
+</style>

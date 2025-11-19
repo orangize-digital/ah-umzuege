@@ -12,7 +12,7 @@
             </div>
           </div>
           <p class="text-sidebar-foreground/80 leading-relaxed">
-            Ihr zuverlässiger Partner für professionelle Umzüge und Transporte in ganz Deutschland.
+            Ihr zuverlässiger Partner für professionelle Entrümpelung und Entsorgung in ganz Deutschland.
           </p>
           <div class="flex space-x-4">
             <div class="bg-sidebar-accent/10 p-2 rounded-full">
@@ -29,6 +29,7 @@
           <h3 class="text-lg font-semibold">Leistungen</h3>
           <ul class="space-y-2">
             <li><a href="/leistungen#entruempelung" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">Entrümpelung</a></li>
+            <li><a href="/leistungen#umzuege" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">Umzüge</a></li>
             <li><a href="/leistungen#firmenumzug" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">Firmenumzug</a></li>
             <li><a href="/leistungen#haushaltsaufloesung" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">Haushaltsauflösung</a></li>
             <li><a href="/leistungen#wohnungsaufloesung" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">Wohnungsauflösung</a></li>
@@ -53,7 +54,7 @@
           <div class="space-y-3">
             <div class="flex items-center space-x-3">
               <Phone class="h-4 w-4 text-sidebar-accent" />
-              <a href="tel:+4915123456789" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">+49 (0) 151 234 56789</a>
+              <a href="tel:+491630182135" class="text-sidebar-foreground/80 hover:text-sidebar-accent transition-colors">+49 163 0182135</a>
             </div>
             <div class="flex items-center space-x-3">
               <Mail class="h-4 w-4 text-sidebar-accent" />
@@ -61,7 +62,7 @@
             </div>
             <div class="flex items-center space-x-3">
               <MapPin class="h-4 w-4 text-sidebar-accent" />
-              <span class="text-sidebar-foreground/80">Deutschlandweit</span>
+              <span class="text-sidebar-foreground/80">Hermannstr 15, 12049 Berlin</span>
             </div>
           </div>
         </div>
@@ -75,7 +76,6 @@
         <div class="flex space-x-6 mt-4 md:mt-0">
           <NuxtLink to="/impressum" class="text-sidebar-foreground/60 hover:text-sidebar-accent text-sm transition-colors">Impressum</NuxtLink>
           <NuxtLink to="/datenschutz" class="text-sidebar-foreground/60 hover:text-sidebar-accent text-sm transition-colors">Datenschutz</NuxtLink>
-          <NuxtLink to="/agb" class="text-sidebar-foreground/60 hover:text-sidebar-accent text-sm transition-colors">AGB</NuxtLink>
         </div>
       </div>
     </div>

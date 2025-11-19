@@ -6,17 +6,17 @@
         <div class="space-y-8">
           <div class="space-y-4">
             <h2 class="text-3xl lg:text-4xl font-bold text-foreground">
-              Über 15 Jahre Erfahrung im Umzugsgeschäft
+              Über 15 Jahre Erfahrung in der Entrümpelung
             </h2>
             <p class="text-xl text-muted-foreground leading-relaxed">
-              A.H Entrümpelung & Umzüge steht seit über 15 Jahren für zuverlässige und professionelle Umzugsdienstleistungen in ganz Deutschland.
+              A.H Entrümpelung & Umzüge steht seit über 15 Jahren für zuverlässige und professionelle Entrümpelungsdienstleistungen in ganz Deutschland.
             </p>
           </div>
           
           <div class="space-y-6">
             <p class="text-muted-foreground leading-relaxed">
-              Unser erfahrenes Team sorgt dafür, dass Ihr Umzug stressfrei und termingerecht abläuft. 
-              Wir bieten Ihnen einen Komplettservice von der Planung bis zur Endmontage - 
+              Unser erfahrenes Team sorgt dafür, dass Ihre Entrümpelung stressfrei und termingerecht abläuft.
+              Wir bieten Ihnen einen Komplettservice von der Planung bis zur fachgerechten Entsorgung -
               alles aus einer Hand und zu fairen Preisen.
             </p>
             
@@ -30,7 +30,7 @@
           <div class="grid grid-cols-3 gap-8 pt-8">
             <div class="text-center">
               <div class="text-3xl font-bold text-primary mb-2">1500+</div>
-              <div class="text-sm text-muted-foreground">Erfolgreiche Umzüge</div>
+              <div class="text-sm text-muted-foreground">Erfolgreiche Entrümpelungen</div>
             </div>
             <div class="text-center">
               <div class="text-3xl font-bold text-primary mb-2">15+</div>

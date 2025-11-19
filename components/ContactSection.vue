@@ -22,7 +22,17 @@
               </div>
               <div>
                 <div class="font-semibold text-foreground">Telefon</div>
-                <a href="tel:+4915123456789" class="text-primary hover:underline">+49 (0) 151 234 56789</a>
+                <a href="tel:+491630182135" class="text-primary hover:underline">+49 163 0182135</a>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-4">
+              <div class="bg-[#25D366]/10 p-3 rounded-full">
+                <MessageCircle class="h-6 w-6 text-[#25D366]" />
+              </div>
+              <div>
+                <div class="font-semibold text-foreground">WhatsApp</div>
+                <a href="https://wa.me/491630182135" target="_blank" rel="noopener noreferrer" class="text-[#25D366] hover:underline">+49 163 0182135</a>
               </div>
             </div>
 
@@ -41,8 +51,8 @@
                 <MapPin class="h-6 w-6 text-primary" />
               </div>
               <div>
-                <div class="font-semibold text-foreground">Standort</div>
-                <div class="text-muted-foreground">Deutschlandweit verfügbar</div>
+                <div class="font-semibold text-foreground">Adresse</div>
+                <div class="text-muted-foreground">Hermannstr 15, 12049 Berlin</div>
               </div>
             </div>
             
@@ -160,7 +170,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { Phone, Mail, MapPin, Clock, Send } from 'lucide-vue-next'
+import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-vue-next'
 
 const form = ref({
   firstName: '',

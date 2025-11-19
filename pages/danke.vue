@@ -36,8 +36,8 @@
             <div>
               <h3 class="font-semibold text-foreground mb-1">Dringende Anfragen?</h3>
               <p class="text-sm text-muted-foreground mb-2">Rufen Sie uns direkt an:</p>
-              <a href="tel:+4915123456789" class="text-primary font-medium hover:underline">
-                +49 (0) 151 234 56789
+              <a href="tel:+491630182135" class="text-primary font-medium hover:underline">
+                +49 163 0182135
               </a>
             </div>
           </div>

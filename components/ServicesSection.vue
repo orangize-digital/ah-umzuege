@@ -61,7 +61,7 @@
 </template>
 
 <script setup>
-import { Trash2, Building2, Home, KeyRound, Recycle, Truck, Paintbrush, Check, ArrowRight, ListIcon, PhoneIcon } from 'lucide-vue-next'
+import { Trash2, Building2, Home, KeyRound, Recycle, Truck, Paintbrush, Check, ArrowRight, ListIcon, PhoneIcon, Package } from 'lucide-vue-next'
 
 const services = [
   {
@@ -75,6 +75,19 @@ const services = [
       'Garagen & Schuppen',
       'Messie-Wohnungen',
       'Gewerberäume'
+    ]
+  },
+  {
+    title: 'Umzüge',
+    description: 'Professionelle Umzugsdienstleistungen für Privatpersonen - stressfrei und zuverlässig.',
+    icon: Package,
+    color: 'bg-green-600',
+    anchor: 'umzuege',
+    features: [
+      'Privatumzüge',
+      'Fernumzüge',
+      'Seniorenumzüge',
+      'Komplettservice'
     ]
   },
   {

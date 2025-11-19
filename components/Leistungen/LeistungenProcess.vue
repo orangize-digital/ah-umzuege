@@ -43,7 +43,7 @@
             Kontaktieren Sie uns noch heute für ein kostenloses und unverbindliches Angebot.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:+4915123456789" class="bg-[#ed7f11] text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors flex items-center justify-center">
+            <a href="tel:+491630182135" class="bg-[#ed7f11] text-white px-6 py-3 rounded-lg hover:bg-orange-700 transition-colors flex items-center justify-center">
               <PhoneIcon class="h-5 w-5 mr-2" />
               Jetzt anrufen
             </a>

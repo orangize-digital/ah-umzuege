@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-white shadow-lg sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16">
+      <div class="flex flex-nowrap justify-between items-center h-16">
         <!-- Logo -->
         <div class="flex-shrink-0">
           <NuxtLink to="/" class="flex items-center gap-3">
@@ -14,8 +14,8 @@
         </div>
 
         <!-- Desktop Navigation -->
-        <div class="hidden md:block">
-          <div class="ml-10 flex items-baseline space-x-8">
+        <div class="hidden md:block flex-1">
+          <div class="ml-4 flex items-baseline space-x-4">
             <NuxtLink 
               to="/" 
               class="nav-link"
@@ -39,6 +39,10 @@
                 <a href="/leistungen#entruempelung" class="dropdown-link">
                   <Trash2 class="h-4 w-4" />
                   Entrümpelung
+                </a>
+                <a href="/leistungen#umzuege" class="dropdown-link">
+                  <Package class="h-4 w-4" />
+                  Umzüge
                 </a>
                 <a href="/leistungen#firmenumzug" class="dropdown-link">
                   <Building2 class="h-4 w-4" />
@@ -93,11 +97,15 @@
           </div>
         </div>
 
-        <!-- CTA Button -->
-        <div class="hidden md:block">
-          <a href="tel:+4915123456789" class="bg-[#ed7f11] text-white px-4 py-2 rounded-lg hover:bg-orange-700 transition-colors flex items-center">
-            <PhoneIcon class="h-4 w-4 mr-2" />
-            Jetzt anrufen
+        <!-- CTA Buttons -->
+        <div class="hidden lg:flex flex-nowrap items-center gap-2 flex-shrink-0 ml-4">
+          <a href="tel:+491630182135" class="bg-[#ed7f11] text-white px-3 py-2 rounded-lg hover:bg-orange-700 transition-colors inline-flex flex-nowrap items-center justify-center whitespace-nowrap text-sm font-medium">
+            <PhoneIcon class="h-4 w-4 mr-1.5 flex-shrink-0" />
+            <span class="flex-shrink-0">Anrufen</span>
+          </a>
+          <a href="https://wa.me/491630182135" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white px-3 py-2 rounded-lg hover:bg-[#20BA5A] transition-colors inline-flex flex-nowrap items-center justify-center whitespace-nowrap text-sm font-medium">
+            <MessageCircle class="h-4 w-4 mr-1.5 flex-shrink-0" />
+            <span class="flex-shrink-0">WhatsApp</span>
           </a>
         </div>
 
@@ -127,6 +135,7 @@
               </button>
               <div v-show="mobileLeistungenOpen" class="pl-4 mt-1 space-y-1">
                 <a href="/leistungen#entruempelung" class="mobile-sub-link" @click="mobileMenuOpen = false">Entrümpelung</a>
+                <a href="/leistungen#umzuege" class="mobile-sub-link" @click="mobileMenuOpen = false">Umzüge</a>
                 <a href="/leistungen#firmenumzug" class="mobile-sub-link" @click="mobileMenuOpen = false">Firmenumzug</a>
                 <a href="/leistungen#haushaltsaufloesung" class="mobile-sub-link" @click="mobileMenuOpen = false">Haushaltsauflösung</a>
                 <a href="/leistungen#wohnungsaufloesung" class="mobile-sub-link" @click="mobileMenuOpen = false">Wohnungsauflösung</a>
@@ -139,9 +148,16 @@
             <NuxtLink to="/ueber-uns" class="mobile-nav-link" @click="mobileMenuOpen = false">Über uns</NuxtLink>
             <NuxtLink to="/referenzen" class="mobile-nav-link" @click="mobileMenuOpen = false">Referenzen</NuxtLink>
             <NuxtLink to="/kontakt" class="mobile-nav-link" @click="mobileMenuOpen = false">Kontakt</NuxtLink>
-          <a href="tel:+4915123456789" class="bg-[#ed7f11] text-white block px-3 py-2 rounded-md text-base font-medium mt-4">
-            Jetzt anrufen
-          </a>
+          <div class="flex gap-2 mt-4">
+            <a href="tel:+491630182135" class="bg-[#ed7f11] text-white flex-1 px-3 py-2 rounded-md text-base font-medium flex items-center justify-center">
+              <PhoneIcon class="h-4 w-4 mr-2" />
+              Anrufen
+            </a>
+            <a href="https://wa.me/491630182135" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white flex-1 px-3 py-2 rounded-md text-base font-medium flex items-center justify-center">
+              <MessageCircle class="h-4 w-4 mr-2" />
+              WhatsApp
+            </a>
+          </div>
         </div>
         </div>
       </ClientOnly>
@@ -151,7 +167,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { TruckIcon, PhoneIcon, MenuIcon, XIcon, ChevronDown, Trash2, Building2, Home, KeyRound, Recycle, Paintbrush } from 'lucide-vue-next'
+import { TruckIcon, PhoneIcon, MenuIcon, XIcon, ChevronDown, Trash2, Building2, Home, KeyRound, Recycle, Paintbrush, Package, MessageCircle } from 'lucide-vue-next'
 
 const mobileMenuOpen = ref(false)
 const leistungenOpen = ref(false)

@@ -8,9 +8,13 @@
         Wir sind für Sie da! Kontaktieren Sie uns für ein kostenloses Angebot oder bei Fragen zu unserem Service.
       </p>
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="tel:+4915123456789" class="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center">
+        <a href="tel:+491630182135" class="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center">
           <PhoneIcon class="h-5 w-5 mr-2" />
           Sofort anrufen
+        </a>
+        <a href="https://wa.me/491630182135" target="_blank" rel="noopener noreferrer" class="bg-[#25D366] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#20BA5A] transition-colors flex items-center justify-center">
+          <MessageCircle class="h-5 w-5 mr-2" />
+          WhatsApp
         </a>
         <a href="mailto:kontakt@ah-umzuege.de" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-orange-600 transition-colors flex items-center justify-center">
           <MailIcon class="h-5 w-5 mr-2" />
@@ -22,5 +26,5 @@
 </template>
 
 <script setup>
-import { PhoneIcon, MailIcon } from 'lucide-vue-next'
+import { PhoneIcon, MailIcon, MessageCircle } from 'lucide-vue-next'
 </script>
