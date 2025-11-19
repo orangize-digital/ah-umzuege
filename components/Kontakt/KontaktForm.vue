@@ -59,56 +59,24 @@
             </div>
           </div>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label for="von" class="block text-sm font-medium text-gray-700 mb-2">Umzug von (PLZ/Ort) *</label>
-              <input 
-                type="text" 
-                id="von" 
-                v-model="form.von"
-                required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
-                placeholder="12345 Berlin"
-              >
-            </div>
-            <div>
-              <label for="nach" class="block text-sm font-medium text-gray-700 mb-2">Umzug nach (PLZ/Ort) *</label>
-              <input 
-                type="text" 
-                id="nach" 
-                v-model="form.nach"
-                required
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
-                placeholder="54321 Hamburg"
-              >
-            </div>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label for="datum" class="block text-sm font-medium text-gray-700 mb-2">Gewünschtes Datum</label>
-              <input 
-                type="date" 
-                id="datum" 
-                v-model="form.datum"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
-              >
-            </div>
-            <div>
-              <label for="zimmer" class="block text-sm font-medium text-gray-700 mb-2">Anzahl Zimmer</label>
-              <select 
-                id="zimmer" 
-                v-model="form.zimmer"
-                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
-              >
-                <option value="">Bitte wählen</option>
-                <option value="1">1 Zimmer</option>
-                <option value="2">2 Zimmer</option>
-                <option value="3">3 Zimmer</option>
-                <option value="4">4 Zimmer</option>
-                <option value="5+">5+ Zimmer</option>
-              </select>
-            </div>
+          <div>
+            <label for="service" class="block text-sm font-medium text-gray-700 mb-2">Serviceart *</label>
+            <select
+              id="service"
+              v-model="form.service"
+              required
+              class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500"
+            >
+              <option value="">Bitte wählen Sie einen Service</option>
+              <option value="Entrümpelung">Entrümpelung</option>
+              <option value="Umzüge">Umzüge</option>
+              <option value="Firmenumzug">Firmenumzug</option>
+              <option value="Haushaltsauflösung">Haushaltsauflösung</option>
+              <option value="Wohnungsauflösung">Wohnungsauflösung</option>
+              <option value="Entsorgung">Entsorgung</option>
+              <option value="Transport">Transport</option>
+              <option value="Renovierungsarbeiten">Renovierungsarbeiten</option>
+            </select>
           </div>
 
           <div>
@@ -154,9 +122,11 @@
 </template>
 
 <script setup>
-import { ref, reactive } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { SendIcon } from 'lucide-vue-next'
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
 const isSubmitting = ref(false)
 
 const form = reactive({
@@ -164,50 +134,48 @@ const form = reactive({
   nachname: '',
   email: '',
   telefon: '',
-  von: '',
-  nach: '',
-  datum: '',
-  zimmer: '',
+  service: '',
   nachricht: '',
   datenschutz: false
+})
+
+// Pre-select service from query parameter
+onMounted(() => {
+  if (route.query.service) {
+    form.service = route.query.service
+  }
 })
 
 const submitForm = async () => {
   isSubmitting.value = true
 
   try {
-    const subject = `Umzugsangebot Anfrage: ${form.von} → ${form.nach} - ${form.vorname} ${form.nachname}`
+    const subject = `Angebot Anfrage: ${form.service} - ${form.vorname} ${form.nachname}`
 
     const htmlBody = `
-      <h2>Neue Umzugsanfrage von A.H Entrümpelung & Umzüge Website</h2>
+      <h2>Neue Anfrage von A.H Entrümpelung & Umzüge Website</h2>
       <h3>Kontaktdaten:</h3>
       <p><strong>Name:</strong> ${form.vorname} ${form.nachname}</p>
       <p><strong>E-Mail:</strong> ${form.email}</p>
       <p><strong>Telefon:</strong> ${form.telefon || 'Nicht angegeben'}</p>
 
-      <h3>Umzugsdetails:</h3>
-      <p><strong>Von:</strong> ${form.von}</p>
-      <p><strong>Nach:</strong> ${form.nach}</p>
-      <p><strong>Gewünschtes Datum:</strong> ${form.datum || 'Nicht angegeben'}</p>
-      <p><strong>Anzahl Zimmer:</strong> ${form.zimmer || 'Nicht angegeben'}</p>
+      <h3>Servicedetails:</h3>
+      <p><strong>Serviceart:</strong> ${form.service}</p>
 
       <h3>Zusätzliche Informationen:</h3>
       <p>${form.nachricht || 'Keine zusätzlichen Informationen'}</p>
     `
 
     const textBody = `
-Neue Umzugsanfrage von A.H Entrümpelung & Umzüge Website
+Neue Anfrage von A.H Entrümpelung & Umzüge Website
 
 Kontaktdaten:
 Name: ${form.vorname} ${form.nachname}
 E-Mail: ${form.email}
 Telefon: ${form.telefon || 'Nicht angegeben'}
 
-Umzugsdetails:
-Von: ${form.von}
-Nach: ${form.nach}
-Gewünschtes Datum: ${form.datum || 'Nicht angegeben'}
-Anzahl Zimmer: ${form.zimmer || 'Nicht angegeben'}
+Servicedetails:
+Serviceart: ${form.service}
 
 Zusätzliche Informationen:
 ${form.nachricht || 'Keine zusätzlichen Informationen'}

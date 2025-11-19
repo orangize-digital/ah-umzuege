@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="py-20">
+  <section id="contact" class="py-20 scroll-mt-[100px]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-16">
         <!-- Contact Info -->
@@ -116,16 +116,20 @@
             </div>
             
             <div>
-              <label class="block text-sm font-medium text-card-foreground mb-2">Umzugsart</label>
-              <select 
+              <label class="block text-sm font-medium text-card-foreground mb-2">Serviceart</label>
+              <select
                 v-model="form.moveType"
                 class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent bg-input"
               >
-                <option value="">Bitte wählen</option>
-                <option value="privatumzug">Privatumzug</option>
-                <option value="firmenumzug">Firmenumzug</option>
-                <option value="fernumzug">Fernumzug</option>
-                <option value="seniorenumzug">Seniorenumzug</option>
+                <option value="">Bitte wählen Sie einen Service</option>
+                <option value="Entrümpelung">Entrümpelung</option>
+                <option value="Umzüge">Umzüge</option>
+                <option value="Firmenumzug">Firmenumzug</option>
+                <option value="Haushaltsauflösung">Haushaltsauflösung</option>
+                <option value="Wohnungsauflösung">Wohnungsauflösung</option>
+                <option value="Entsorgung">Entsorgung</option>
+                <option value="Transport">Transport</option>
+                <option value="Renovierungsarbeiten">Renovierungsarbeiten</option>
               </select>
             </div>
             
@@ -169,8 +173,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 import { Phone, Mail, MapPin, Clock, Send, MessageCircle } from 'lucide-vue-next'
+
+const { selectedService, clearSelectedService } = useSelectedService()
 
 const form = ref({
   firstName: '',
@@ -184,14 +190,17 @@ const form = ref({
 
 const isSubmitting = ref(false)
 
-const getMoveTypeLabel = (type) => {
-  const labels = {
-    'privatumzug': 'Privatumzug',
-    'firmenumzug': 'Firmenumzug',
-    'fernumzug': 'Fernumzug',
-    'seniorenumzug': 'Seniorenumzug'
+// Watch for service selection and update form
+watch(selectedService, (newService) => {
+  if (newService) {
+    form.value.moveType = newService
+    clearSelectedService()
   }
-  return labels[type] || type
+})
+
+const getMoveTypeLabel = (type) => {
+  // Service names are already in the correct format
+  return type || 'Nicht angegeben'
 }
 
 const submitForm = async () => {
@@ -205,7 +214,7 @@ const submitForm = async () => {
       <p><strong>Name:</strong> ${form.value.firstName} ${form.value.lastName}</p>
       <p><strong>E-Mail:</strong> ${form.value.email}</p>
       <p><strong>Telefon:</strong> ${form.value.phone || 'Nicht angegeben'}</p>
-      <p><strong>Umzugsart:</strong> ${getMoveTypeLabel(form.value.moveType)}</p>
+      <p><strong>Serviceart:</strong> ${getMoveTypeLabel(form.value.moveType)}</p>
       <h3>Nachricht:</h3>
       <p>${form.value.message || 'Keine Nachricht angegeben'}</p>
     `
@@ -216,7 +225,7 @@ Neue Kontaktanfrage von A.H Entrümpelung & Umzüge Website
 Name: ${form.value.firstName} ${form.value.lastName}
 E-Mail: ${form.value.email}
 Telefon: ${form.value.phone || 'Nicht angegeben'}
-Umzugsart: ${getMoveTypeLabel(form.value.moveType)}
+Serviceart: ${getMoveTypeLabel(form.value.moveType)}
 
 Nachricht:
 ${form.value.message || 'Keine Nachricht angegeben'}
