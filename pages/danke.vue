@@ -49,8 +49,8 @@
             <div>
               <h3 class="font-semibold text-foreground mb-1">E-Mail</h3>
               <p class="text-sm text-muted-foreground mb-2">Oder schreiben Sie uns:</p>
-              <a href="mailto:naumchedev@gmail.com" class="text-primary font-medium hover:underline">
-                naumchedev@gmail.com
+              <a href="mailto:kontakt@ah-umzuge.de" class="text-primary font-medium hover:underline">
+                kontakt@ah-umzuge.de
               </a>
             </div>
           </div>
