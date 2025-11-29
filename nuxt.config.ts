@@ -29,7 +29,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Professionelle Entrümpelung und Entsorgung' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon-ah.svg' }
       ]
     }
   },

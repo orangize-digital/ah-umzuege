@@ -22,7 +22,7 @@ useSeoMeta({
   description: 'Überzeugen Sie sich von unserer Qualität. Lesen Sie Erfahrungsberichte zufriedener Kunden und sehen Sie unsere erfolgreich abgeschlossenen Projekte.',
   ogTitle: 'Referenzen & Kundenstimmen - A.H Entrümpelung & Umzüge',
   ogDescription: 'Zufriedene Kunden, erfolgreiche Projekte. Lesen Sie authentische Erfahrungsberichte und überzeugen Sie sich von unserer Qualität.',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/referenzen',
   twitterCard: 'summary_large_image',
 })

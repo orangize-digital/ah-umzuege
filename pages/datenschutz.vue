@@ -29,7 +29,7 @@ useSeoMeta({
   description: 'Datenschutzerklärung von A.H Entrümpelung & Umzüge - Informationen zum Schutz Ihrer persönlichen Daten.',
   ogTitle: 'Datenschutzerklärung - A.H Entrümpelung & Umzüge',
   ogDescription: 'Datenschutzerklärung von A.H Entrümpelung & Umzüge - Informationen zum Schutz Ihrer persönlichen Daten.',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/datenschutz',
   twitterCard: 'summary_large_image',
 })

@@ -22,7 +22,7 @@ useSeoMeta({
   description: 'Erfahren Sie mehr über unsere Werte, Qualitätsstandards und warum wir Ihr vertrauenswürdiger Partner für professionelle Entrümpelung und Entsorgung sind.',
   ogTitle: 'Über uns - A.H Entrümpelung & Umzüge',
   ogDescription: 'Professionelle Entrümpelung mit langjähriger Erfahrung. Ihr vertrauenswürdiger Partner für Entrümpelung, Haushaltsauflösung und mehr.',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/ueber-uns',
   twitterCard: 'summary_large_image',
 })

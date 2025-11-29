@@ -49,8 +49,8 @@
             <div>
               <h3 class="font-semibold text-foreground mb-1">E-Mail</h3>
               <p class="text-sm text-muted-foreground mb-2">Oder schreiben Sie uns:</p>
-              <a href="mailto:kontakt@ah-umzuge.de" class="text-primary font-medium hover:underline">
-                kontakt@ah-umzuge.de
+              <a href="mailto:kontakt@ah-umzuege.de" class="text-primary font-medium hover:underline">
+                kontakt@ah-umzuege.de
               </a>
             </div>
           </div>
@@ -87,7 +87,7 @@ useSeoMeta({
   description: 'Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns schnellstmöglich bei Ihnen.',
   ogTitle: 'Danke für Ihre Anfrage - A.H Entrümpelung & Umzüge',
   ogDescription: 'Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns schnellstmöglich bei Ihnen.',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/danke',
   twitterCard: 'summary_large_image',
   robots: 'noindex, nofollow' // Prevent indexing of thank you page

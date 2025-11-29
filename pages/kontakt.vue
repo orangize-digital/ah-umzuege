@@ -19,7 +19,7 @@ useSeoMeta({
   description: 'Kontaktieren Sie uns für ein kostenloses und unverbindliches Angebot. Wir beraten Sie gerne persönlich zu Ihrem Umzug oder Ihrer Entrümpelung.',
   ogTitle: 'Kontakt - A.H Entrümpelung & Umzüge',
   ogDescription: 'Kostenloses Angebot anfordern. Rufen Sie uns an oder schreiben Sie uns - wir beraten Sie gerne!',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/kontakt',
   twitterCard: 'summary_large_image',
 })

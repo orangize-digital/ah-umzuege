@@ -29,7 +29,7 @@ useSeoMeta({
   description: 'Impressum und rechtliche Angaben von A.H Entrümpelung & Umzüge',
   ogTitle: 'Impressum - A.H Entrümpelung & Umzüge',
   ogDescription: 'Impressum und rechtliche Angaben von A.H Entrümpelung & Umzüge',
-  ogImage: '/og-image.jpg',
+  ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/impressum',
   twitterCard: 'summary_large_image',
 })
