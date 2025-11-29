@@ -30,7 +30,7 @@ useSeoMeta({
   ogTitle: 'Impressum - A.H Entrümpelung & Umzüge',
   ogDescription: 'Impressum und rechtliche Angaben von A.H Entrümpelung & Umzüge',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/impressum',
+  ogUrl: 'https://ah-umzuege.de/impressum',
   twitterCard: 'summary_large_image',
 })
 
@@ -41,7 +41,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/impressum'
+      href: 'https://ah-umzuege.de/impressum'
     }
   ]
 })

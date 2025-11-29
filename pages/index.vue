@@ -38,7 +38,7 @@ useSeoMeta({
   ogTitle: 'A.H Entrümpelung & Umzüge - Ihr zuverlässiger Entrümpelungspartner',
   ogDescription: 'Professionelle Entrümpelung und Entsorgung in ganz Deutschland. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de',
+  ogUrl: 'https://ah-umzuege.de',
   twitterCard: 'summary_large_image',
   twitterTitle: 'A.H Entrümpelung & Umzüge - Professionelle Entrümpelung & Entsorgung',
   twitterDescription: 'Professionelle Entrümpelung und Entsorgung in ganz Deutschland. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
@@ -52,7 +52,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de'
+      href: 'https://ah-umzuege.de'
     }
   ]
 })

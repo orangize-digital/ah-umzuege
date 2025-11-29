@@ -20,7 +20,7 @@ useSeoMeta({
   ogTitle: 'Kontakt - A.H Entrümpelung & Umzüge',
   ogDescription: 'Kostenloses Angebot anfordern. Rufen Sie uns an oder schreiben Sie uns - wir beraten Sie gerne!',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/kontakt',
+  ogUrl: 'https://ah-umzuege.de/kontakt',
   twitterCard: 'summary_large_image',
 })
 
@@ -31,7 +31,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/kontakt'
+      href: 'https://ah-umzuege.de/kontakt'
     }
   ]
 })

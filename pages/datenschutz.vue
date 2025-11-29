@@ -30,7 +30,7 @@ useSeoMeta({
   ogTitle: 'Datenschutzerklärung - A.H Entrümpelung & Umzüge',
   ogDescription: 'Datenschutzerklärung von A.H Entrümpelung & Umzüge - Informationen zum Schutz Ihrer persönlichen Daten.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/datenschutz',
+  ogUrl: 'https://ah-umzuege.de/datenschutz',
   twitterCard: 'summary_large_image',
 })
 
@@ -41,7 +41,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/datenschutz'
+      href: 'https://ah-umzuege.de/datenschutz'
     }
   ]
 })

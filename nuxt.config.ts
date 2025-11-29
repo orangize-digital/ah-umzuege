@@ -37,7 +37,7 @@ export default defineNuxtConfig({
   // Sitemap and Robots configuration
   runtimeConfig: {
     public: {
-      siteUrl: 'https://mukhtar-umzuge.de'
+      siteUrl: 'https://ah-umzuege.de'
     }
   }
 })

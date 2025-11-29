@@ -23,7 +23,7 @@ useSeoMeta({
   ogTitle: 'Über uns - A.H Entrümpelung & Umzüge',
   ogDescription: 'Professionelle Entrümpelung mit langjähriger Erfahrung. Ihr vertrauenswürdiger Partner für Entrümpelung, Haushaltsauflösung und mehr.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/ueber-uns',
+  ogUrl: 'https://ah-umzuege.de/ueber-uns',
   twitterCard: 'summary_large_image',
 })
 
@@ -34,7 +34,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/ueber-uns'
+      href: 'https://ah-umzuege.de/ueber-uns'
     }
   ]
 })

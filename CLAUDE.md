@@ -94,7 +94,7 @@ useSeoMeta({
   ogTitle: '...',
   ogDescription: '...',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/...',
+  ogUrl: 'https://ah-umzuege.de/...',
   twitterCard: 'summary_large_image',
   // ... etc
 })
@@ -106,7 +106,7 @@ useHead({
 ```
 
 **Important SEO patterns**:
-- Base site URL: `https://mukhtar-umzuge.de` (configured in nuxt.config.ts:40)
+- Base site URL: `https://ah-umzuege.de` (configured in nuxt.config.ts:40)
 - All pages use German language (`lang: 'de'`)
 - Canonical URLs are always absolute and include full domain
 - Sitemap auto-generated at `/sitemap.xml`

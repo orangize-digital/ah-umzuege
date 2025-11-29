@@ -21,7 +21,7 @@ useSeoMeta({
   ogTitle: 'Unsere Leistungen - A.H Entrümpelung & Umzüge',
   ogDescription: 'Komplettservice: Entrümpelung, Haushaltsauflösung, Transport, Renovierung und mehr. Professionell, zuverlässig, deutschlandweit.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/leistungen',
+  ogUrl: 'https://ah-umzuege.de/leistungen',
   twitterCard: 'summary_large_image',
 })
 
@@ -32,7 +32,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/leistungen'
+      href: 'https://ah-umzuege.de/leistungen'
     }
   ]
 })

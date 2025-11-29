@@ -88,7 +88,7 @@ useSeoMeta({
   ogTitle: 'Danke für Ihre Anfrage - A.H Entrümpelung & Umzüge',
   ogDescription: 'Vielen Dank für Ihre Kontaktaufnahme. Wir melden uns schnellstmöglich bei Ihnen.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/danke',
+  ogUrl: 'https://ah-umzuege.de/danke',
   twitterCard: 'summary_large_image',
   robots: 'noindex, nofollow' // Prevent indexing of thank you page
 })
@@ -98,7 +98,7 @@ useHead({
     lang: 'de'
   },
   link: [
-    { rel: 'canonical', href: 'https://mukhtar-umzuge.de/danke' }
+    { rel: 'canonical', href: 'https://ah-umzuege.de/danke' }
   ]
 })
 </script>

@@ -23,7 +23,7 @@ useSeoMeta({
   ogTitle: 'Referenzen & Kundenstimmen - A.H Entrümpelung & Umzüge',
   ogDescription: 'Zufriedene Kunden, erfolgreiche Projekte. Lesen Sie authentische Erfahrungsberichte und überzeugen Sie sich von unserer Qualität.',
   ogImage: '/og-image.jpg',
-  ogUrl: 'https://mukhtar-umzuge.de/referenzen',
+  ogUrl: 'https://ah-umzuege.de/referenzen',
   twitterCard: 'summary_large_image',
 })
 
@@ -34,7 +34,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://mukhtar-umzuge.de/referenzen'
+      href: 'https://ah-umzuege.de/referenzen'
     }
   ]
 })
