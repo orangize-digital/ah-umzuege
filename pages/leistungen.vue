@@ -19,7 +19,7 @@ useSeoMeta({
   title: 'Unsere Leistungen - A.H Entrümpelung & Umzüge',
   description: 'Entrümpelung, Firmen- und Haushaltsauflösung, Wohnungsauflösung, Entsorgung, Transport und Renovierungsarbeiten. Professionelle Dienstleistungen für jeden Bedarf.',
   ogTitle: 'Unsere Leistungen - A.H Entrümpelung & Umzüge',
-  ogDescription: 'Komplettservice: Entrümpelung, Haushaltsauflösung, Transport, Renovierung und mehr. Professionell, zuverlässig, deutschlandweit.',
+  ogDescription: 'Komplettservice: Entrümpelung, Haushaltsauflösung, Transport, Renovierung und mehr. Professionell und zuverlässig in Berlin & Umgebung.',
   ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de/leistungen',
   twitterCard: 'summary_large_image',

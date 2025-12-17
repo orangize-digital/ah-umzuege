@@ -34,14 +34,14 @@ import FooterSection from '../components/FooterSection.vue'
 
 useSeoMeta({
   title: 'A.H Entrümpelung & Umzüge - Professionelle Entrümpelung & Entsorgung',
-  description: 'Professionelle Entrümpelung und Entsorgung in ganz Deutschland. Von Wohnungsauflösung über Haushaltsauflösung bis hin zu Keller- und Dachbodenräumung.',
+  description: 'Professionelle Entrümpelung und Entsorgung in Berlin & Umgebung. Von Wohnungsauflösung über Haushaltsauflösung bis hin zu Keller- und Dachbodenräumung.',
   ogTitle: 'A.H Entrümpelung & Umzüge - Ihr zuverlässiger Entrümpelungspartner',
-  ogDescription: 'Professionelle Entrümpelung und Entsorgung in ganz Deutschland. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
+  ogDescription: 'Professionelle Entrümpelung und Entsorgung in Berlin & Umgebung. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
   ogImage: '/logo.svg',
   ogUrl: 'https://ah-umzuege.de',
   twitterCard: 'summary_large_image',
   twitterTitle: 'A.H Entrümpelung & Umzüge - Professionelle Entrümpelung & Entsorgung',
-  twitterDescription: 'Professionelle Entrümpelung und Entsorgung in ganz Deutschland. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
+  twitterDescription: 'Professionelle Entrümpelung und Entsorgung in Berlin & Umgebung. Haushaltsauflösung, Wohnungsräumung, Entsorgung und mehr.',
   twitterImage: '/logo.svg',
 })
 

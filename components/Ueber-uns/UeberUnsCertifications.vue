@@ -49,7 +49,7 @@
             <ul class="space-y-3">
               <li class="flex items-start">
                 <CheckCircleIcon class="h-6 w-6 text-orange-600 mr-3 mt-0.5 flex-shrink-0" />
-                <span class="text-gray-700">Über 15 Jahre Erfahrung im Umzugsgeschäft</span>
+                <span class="text-gray-700">Langjährige Erfahrung im Umzugsgeschäft</span>
               </li>
               <li class="flex items-start">
                 <CheckCircleIcon class="h-6 w-6 text-orange-600 mr-3 mt-0.5 flex-shrink-0" />

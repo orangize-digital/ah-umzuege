@@ -6,15 +6,15 @@
           Über <span class="text-orange-600">A.H Entrümpelung & Umzüge</span>
         </h1>
         <p class="text-xl text-gray-600 mb-12 leading-relaxed">
-          Seit über 15 Jahren sind wir Ihr vertrauensvoller Partner für Entrümpelung und Entsorgung in ganz Deutschland.
+          Wir sind Ihr vertrauensvoller Partner für Entrümpelung und Entsorgung in Berlin & Umgebung.
           Mit Erfahrung, Professionalität und einem persönlichen Service machen wir Ihre Entrümpelung stressfrei.
         </p>
 
         <!-- Stats Grid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div class="bg-white p-8 rounded-xl shadow-lg">
-            <div class="text-4xl font-bold text-orange-600 mb-2">15+</div>
-            <div class="text-gray-700 font-medium">Jahre Erfahrung</div>
+            <div class="text-4xl font-bold text-orange-600 mb-2">100%</div>
+            <div class="text-gray-700 font-medium">Einsatz</div>
           </div>
           <div class="bg-white p-8 rounded-xl shadow-lg">
             <div class="text-4xl font-bold text-orange-600 mb-2">1500+</div>

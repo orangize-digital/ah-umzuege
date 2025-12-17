@@ -6,10 +6,10 @@
         <div class="space-y-8">
           <div class="space-y-4">
             <h2 class="text-3xl lg:text-4xl font-bold text-foreground">
-              Über 15 Jahre Erfahrung in der Entrümpelung
+              Ihr zuverlässiger Partner für Entrümpelung
             </h2>
             <p class="text-xl text-muted-foreground leading-relaxed">
-              A.H Entrümpelung & Umzüge steht seit über 15 Jahren für zuverlässige und professionelle Entrümpelungsdienstleistungen in ganz Deutschland.
+              A.H Entrümpelung & Umzüge steht für zuverlässige und professionelle Entrümpelungsdienstleistungen in Berlin & Umgebung.
             </p>
           </div>
           
@@ -33,8 +33,8 @@
               <div class="text-sm text-muted-foreground">Erfolgreiche Entrümpelungen</div>
             </div>
             <div class="text-center">
-              <div class="text-3xl font-bold text-primary mb-2">15+</div>
-              <div class="text-sm text-muted-foreground">Jahre Erfahrung</div>
+              <div class="text-3xl font-bold text-primary mb-2">100%</div>
+              <div class="text-sm text-muted-foreground">Einsatz</div>
             </div>
             <div class="text-center">
               <div class="text-3xl font-bold text-primary mb-2">100%</div>

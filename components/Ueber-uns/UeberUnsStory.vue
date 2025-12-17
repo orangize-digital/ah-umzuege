@@ -35,7 +35,7 @@
             <div class="border-l-4 border-orange-600 pl-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-2">Heute - Ihr Partner</h3>
               <p class="text-gray-600">
-                Mit über 15 Jahren Erfahrung und mehr als 1000 erfolgreichen Entrümpelungen sind wir stolz darauf,
+                Mit Zuverlässigkeit und Sorgfalt und mehr als 1000 erfolgreichen Entrümpelungen sind wir stolz darauf,
                 Ihr vertrauensvoller Partner für alle Entrümpelungs- und Entsorgungsbedürfnisse zu sein.
               </p>
             </div>

@@ -19,7 +19,7 @@
             <h3 class="text-xl font-semibold text-gray-900 mb-2">Mukhtar</h3>
             <p class="text-orange-600 font-medium mb-3">Geschäftsführer & Gründer</p>
             <p class="text-gray-600">
-              Mit über 15 Jahren Erfahrung leitet Mukhtar A.H Entrümpelung & Umzüge persönlich und sorgt für höchste Qualität.
+              Mit Zuverlässigkeit und Sorgfalt leitet Mukhtar A.H Entrümpelung & Umzüge persönlich und sorgt für höchste Qualität.
             </p>
           </div>
         </div>
@@ -58,8 +58,8 @@
       <div class="mt-16 text-center">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <div class="text-3xl font-bold text-orange-600 mb-2">15+</div>
-            <div class="text-gray-600">Jahre Erfahrung</div>
+            <div class="text-3xl font-bold text-orange-600 mb-2">100%</div>
+            <div class="text-gray-600">Einsatz</div>
           </div>
           <div>
             <div class="text-3xl font-bold text-orange-600 mb-2">1000+</div>

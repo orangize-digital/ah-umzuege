@@ -40,7 +40,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         { name: 'description', content: 'Professionelle Entrümpelung und Entsorgung' }
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon-ah.svg' }
+        { rel: 'icon', type: 'image/png', href: '/favicon.png' }
       ]
     }
   },

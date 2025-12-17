@@ -83,7 +83,7 @@
                 </li>
                 <li class="flex items-start">
                   <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
-                  <span class="text-gray-700">Fernumzüge deutschlandweit</span>
+                  <span class="text-gray-700">Umzüge in Berlin & Umgebung</span>
                 </li>
                 <li class="flex items-start">
                   <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
@@ -336,7 +336,7 @@
                 </li>
                 <li class="flex items-start">
                   <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
-                  <span class="text-gray-700">Deutschlandweit</span>
+                  <span class="text-gray-700">Berlin & Umgebung</span>
                 </li>
                 <li class="flex items-start">
                   <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />

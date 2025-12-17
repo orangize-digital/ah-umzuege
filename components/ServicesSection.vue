@@ -144,14 +144,14 @@ const services = [
   },
   {
     title: 'Transport',
-    description: 'Zuverlässiger Transportservice für Möbel und Güter - deutschlandweit.',
+    description: 'Zuverlässiger Transportservice für Möbel und Güter in Berlin & Umgebung.',
     icon: Truck,
     color: 'bg-teal-600',
     anchor: 'transport',
     features: [
       'Möbeltransport',
       'Kurierdienst',
-      'Deutschlandweit',
+      'Berlin & Umgebung',
       'Versichert'
     ]
   },

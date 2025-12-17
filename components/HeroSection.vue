@@ -25,8 +25,8 @@
               <span class="text-white">entrümpeln?</span>
             </h1>
             <p class="text-xl text-white/90 leading-relaxed drop-shadow-md">
-              Professionelle Entrümpelung deutschlandweit.
-              Schnell, zuverlässig und stressfrei mit über 15 Jahren Erfahrung.
+              Professionelle Entrümpelung in Berlin & Umgebung.
+              Schnell, zuverlässig und stressfrei – mit Zuverlässigkeit und Sorgfalt.
             </p>
           </div>
 
@@ -54,7 +54,7 @@
             </div>
             <div class="flex items-center">
               <Star class="h-6 w-6 text-primary mr-2 drop-shadow-md" />
-              <span class="text-sm text-white/90 font-medium">15+ Jahre</span>
+              <span class="text-sm text-white/90 font-medium">Top Qualität</span>
             </div>
           </div>
         </div>

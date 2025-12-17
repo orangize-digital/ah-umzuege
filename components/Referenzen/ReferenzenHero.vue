@@ -18,8 +18,8 @@
           <div class="text-gray-600">Kundenbewertung</div>
         </div>
         <div>
-          <div class="text-3xl font-bold text-orange-600">15+</div>
-          <div class="text-gray-600">Jahre Erfahrung</div>
+          <div class="text-3xl font-bold text-orange-600">100%</div>
+          <div class="text-gray-600">Einsatz</div>
         </div>
       </div>
     </div>
