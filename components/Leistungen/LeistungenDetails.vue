@@ -43,7 +43,7 @@
             <div class="order-1 lg:order-2">
               <div class="rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop"
+                  src="/entruempelung.jpg"
                   alt="Entrümpelung Service"
                   class="w-full h-[400px] object-cover"
                 />
@@ -58,7 +58,7 @@
             <div>
               <div class="rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&auto=format&fit=crop"
+                  src="/umzuge.jpg"
                   alt="Umzüge Service"
                   class="w-full h-[400px] object-cover"
                 />
