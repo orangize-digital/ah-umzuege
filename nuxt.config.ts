@@ -37,7 +37,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Professionelle Entrümpelung und Entsorgung' }
+        { name: 'description', content: 'Professionelle Entrümpelung und Entsorgung' },
+        { name: 'google-site-verification', content: 'fMr-EiJqRKqn_3efq2SkUysamwGE1hrCpJzVDlo2sX4' }
       ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.png' }
