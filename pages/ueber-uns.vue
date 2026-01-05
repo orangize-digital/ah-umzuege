@@ -2,6 +2,7 @@
   <div class="min-h-screen bg-white">
     <NavHeader />
     <UeberUnsHero />
+    <UeberUnsStory />
     <UeberUnsValues />
     <UeberUnsCertifications />
     <ContactSection />
@@ -12,6 +13,7 @@
 <script setup>
 import NavHeader from '../components/NavHeader.vue'
 import UeberUnsHero from '../components/Ueber-uns/UeberUnsHero.vue'
+import UeberUnsStory from '../components/Ueber-uns/UeberUnsStory.vue'
 import UeberUnsValues from '../components/Ueber-uns/UeberUnsValues.vue'
 import UeberUnsCertifications from '../components/Ueber-uns/UeberUnsCertifications.vue'
 import ContactSection from '../components/ContactSection.vue'

@@ -1,47 +1,50 @@
 <template>
   <section class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Unsere Geschichte</h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Von kleinen Anfängen zu einem der vertrauenswürdigsten Entrümpelungsunternehmen der Region
-        </p>
-      </div>
-
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div>
-          <img 
-            src="/public/umzug.webp"
-            alt="Gründung von A.H Entrümpelung & Umzüge" 
-            class="rounded-lg shadow-lg"
+          <img
+            src="/Mitarbeiter-1.jpeg"
+            alt="A.H Entrümpelung & Umzüge Mitarbeiter bei der Arbeit"
+            class="rounded-2xl shadow-2xl"
           />
         </div>
-        <div>
-          <div class="space-y-6">
-            <div class="border-l-4 border-orange-600 pl-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">2008 - Die Anfänge</h3>
-              <p class="text-gray-600">
-                A.H Entrümpelung & Umzüge wurde mit der Vision gegründet, Entrümpelungen stressfrei und professionell zu gestalten.
-                Mit einem kleinen Team und großen Träumen begannen wir unsere Reise.
-              </p>
-            </div>
-            <div class="border-l-4 border-orange-600 pl-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">2015 - Expansion</h3>
-              <p class="text-gray-600">
-                Durch zufriedene Kunden und Mundpropaganda wuchsen wir stetig. Wir erweiterten unser Team
-                und unsere Fahrzeugflotte, um noch mehr Familien bei der Entrümpelung zu helfen.
-              </p>
-            </div>
-            <div class="border-l-4 border-orange-600 pl-6">
-              <h3 class="text-xl font-semibold text-gray-900 mb-2">Heute - Ihr Partner</h3>
-              <p class="text-gray-600">
-                Mit Zuverlässigkeit und Sorgfalt und mehr als 1000 erfolgreichen Entrümpelungen sind wir stolz darauf,
-                Ihr vertrauensvoller Partner für alle Entrümpelungs- und Entsorgungsbedürfnisse zu sein.
-              </p>
-            </div>
-          </div>
+        <div class="space-y-6">
+          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900">
+            Erfahrung trifft auf <span class="text-orange-600">frischen Elan</span>
+          </h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            A.H Entrümpelung & Umzüge ist ein neu gegründetes Unternehmen mit einem erfahrenen Team.
+            Unser Geschäftsführer bringt langjährige Erfahrung in der Entrümpelungs- und Umzugsbranche mit.
+          </p>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Diese Expertise kombinieren wir mit modernem Service und persönlicher Betreuung.
+            Bei uns bekommen Sie keine anonyme Dienstleistung, sondern einen echten Partner an Ihrer Seite.
+          </p>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+              <span class="text-gray-700">Langjährige Branchenerfahrung des Inhabers</span>
+            </li>
+            <li class="flex items-start">
+              <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+              <span class="text-gray-700">Persönliche Betreuung bei jedem Auftrag</span>
+            </li>
+            <li class="flex items-start">
+              <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+              <span class="text-gray-700">Flexibel und kundenorientiert</span>
+            </li>
+            <li class="flex items-start">
+              <CheckCircle class="h-6 w-6 text-orange-600 mr-3 flex-shrink-0 mt-0.5" />
+              <span class="text-gray-700">Faire Preise ohne versteckte Kosten</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script setup>
+import { CheckCircle } from 'lucide-vue-next'
+</script>

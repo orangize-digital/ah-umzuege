@@ -12,6 +12,9 @@
     <!-- About Section -->
     <AboutSection />
 
+    <!-- Team Section -->
+    <TeamSection />
+
     <!-- Testimonials Section -->
     <TestimonialsSection />
 
@@ -28,6 +31,7 @@ import NavHeader from '../components/NavHeader.vue'
 import HeroSection from '../components/HeroSection.vue'
 import ServicesSection from '../components/ServicesSection.vue'
 import AboutSection from '../components/AboutSection.vue'
+import TeamSection from '../components/TeamSection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
 import ContactSection from '../components/ContactSection.vue'
 import FooterSection from '../components/FooterSection.vue'
