@@ -28,6 +28,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-M9RX32HS');`,
           type: 'text/javascript',
           tagPosition: 'head'
+        },
+        {
+          type: 'application/ld+json',
+          innerHTML: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "A.H Entrümpelung & Umzüge",
+            "url": "https://ah-umzuege.de",
+            "logo": "https://ah-umzuege.de/favicon-192px.png"
+          })
         }
       ],
       title: 'A.H Entrümpelung & Umzüge',
