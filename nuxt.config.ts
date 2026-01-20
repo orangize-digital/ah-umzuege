@@ -51,11 +51,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         { name: 'google-site-verification', content: 'fMr-EiJqRKqn_3efq2SkUysamwGE1hrCpJzVDlo2sX4' }
       ],
       link: [
-        { rel: 'icon', type: 'image/png', sizes: '48x48', href: '/favicon-48px.png' },
-        { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/favicon-96px.png' },
-        { rel: 'icon', type: 'image/png', sizes: '144x144', href: '/favicon-144px.png' },
-        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/favicon-192px.png' },
-        { rel: 'apple-touch-icon', sizes: '192x192', href: '/favicon-192px.png' }
+        { rel: 'icon', type: 'image/png', sizes: '48x48', href: 'https://ah-umzuege.de/favicon-48px.png' },
+        { rel: 'icon', type: 'image/png', sizes: '96x96', href: 'https://ah-umzuege.de/favicon-96px.png' },
+        { rel: 'icon', type: 'image/png', sizes: '144x144', href: 'https://ah-umzuege.de/favicon-144px.png' },
+        { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://ah-umzuege.de/favicon-192px.png' },
+        { rel: 'apple-touch-icon', sizes: '192x192', href: 'https://ah-umzuege.de/favicon-192px.png' }
       ]
     }
   },
