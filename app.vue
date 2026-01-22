@@ -11,3 +11,15 @@
     <NuxtPage />
   </div>
 </template>
+
+<script setup>
+// Clixtell Tracking Code
+onMounted(() => {
+  const script = document.createElement('script')
+  script.async = true
+  script.type = 'text/javascript'
+  const prefix = document.location.protocol
+  script.src = prefix + '//scripts.clixtell.com/track.js'
+  document.head.appendChild(script)
+})
+</script>
