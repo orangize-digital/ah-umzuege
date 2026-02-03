@@ -5,7 +5,7 @@
         Unsere <span class="text-orange-600">Referenzen</span>
       </h1>
       <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-        Über 500 zufriedene Kunden vertrauen auf unsere professionellen Umzugsdienstleistungen. 
+        Zufriedene Kunden in Berlin & Umgebung vertrauen auf unsere professionellen Umzugs- und Entrümpelungsdienstleistungen.
         Lesen Sie, was unsere Kunden über uns sagen.
       </p>
       <div class="flex justify-center items-center space-x-8 text-center">

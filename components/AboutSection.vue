@@ -6,10 +6,10 @@
         <div class="space-y-8">
           <div class="space-y-4">
             <h2 class="text-3xl lg:text-4xl font-bold text-foreground">
-              Ihr zuverlässiger Partner für Entrümpelung
+              Ihr zuverlässiger Partner für Umzüge & Entrümpelung
             </h2>
             <p class="text-xl text-muted-foreground leading-relaxed">
-              A.H Entrümpelung & Umzüge steht für zuverlässige und professionelle Entrümpelungsdienstleistungen in Berlin & Umgebung.
+              A.H Entrümpelung & Umzüge steht für zuverlässige und professionelle Umzüge und Entrümpelungen in Berlin & Umgebung.
             </p>
           </div>
           

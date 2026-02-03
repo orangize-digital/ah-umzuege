@@ -36,37 +36,37 @@ const testimonials = [
   {
     id: 1,
     name: "Familie Schmidt",
-    location: "Hamburg",
+    location: "Berlin-Neukölln",
     text: "Sehr professioneller Service! Das Team war pünktlich, freundlich und hat unseren Umzug perfekt organisiert. Absolut empfehlenswert!"
   },
   {
     id: 2,
     name: "Thomas Müller",
-    location: "Berlin",
+    location: "Berlin-Mitte",
     text: "Faire Preise und zuverlässige Arbeit. Unser Büroumzug wurde termingerecht und ohne Schäden durchgeführt. Vielen Dank!"
   },
   {
     id: 3,
     name: "Maria Gonzalez",
-    location: "München",
+    location: "Berlin-Charlottenburg",
     text: "Hervorragender Kundenservice! Von der Beratung bis zur Durchführung war alles top organisiert. Gerne wieder!"
   },
   {
     id: 4,
     name: "Familie Weber",
-    location: "Köln",
+    location: "Potsdam",
     text: "Schnell, sauber und professionell. Das Team hat sogar beim Aufbau der Möbel geholfen. Sehr zufrieden!"
   },
   {
     id: 5,
     name: "Dr. Andreas Klein",
-    location: "Frankfurt",
+    location: "Berlin-Spandau",
     text: "Pünktlich, zuverlässig und sehr sorgfältig im Umgang mit unseren Sachen. Kann ich nur weiterempfehlen!"
   },
   {
     id: 6,
     name: "Familie Johnson",
-    location: "Stuttgart",
+    location: "Bernau bei Berlin",
     text: "Trotz kurzfristiger Anfrage haben sie unseren Umzug perfekt organisiert. Sehr flexibel und kundenorientiert!"
   }
 ]

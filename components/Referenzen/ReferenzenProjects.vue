@@ -31,9 +31,9 @@ import { HomeIcon, BuildingIcon, TruckIcon, PackageIcon } from 'lucide-vue-next'
 const projects = [
   {
     id: 1,
-    title: "Familienumzug Hamburg-Berlin",
+    title: "Familienumzug in Kreuzberg",
     description: "Kompletter Haushaltsumzug einer 5-köpfigen Familie mit Verpackungsservice und Möbelmontage.",
-    location: "Hamburg → Berlin",
+    location: "Berlin-Kreuzberg → Berlin-Zehlendorf",
     date: "März 2025",
     icon: HomeIcon
   },
@@ -41,15 +41,15 @@ const projects = [
     id: 2,
     title: "Büroumzug Startup",
     description: "Umzug eines Tech-Startups mit 50 Arbeitsplätzen inklusive IT-Equipment und Serverumzug.",
-    location: "München Innenstadt",
+    location: "Berlin-Mitte",
     date: "Februar 2025",
     icon: BuildingIcon
   },
   {
     id: 3,
-    title: "Fernumzug nach Österreich",
-    description: "Internationaler Umzug mit Zollabwicklung und Lagerung für eine Übergangslösung.",
-    location: "Köln → Wien",
+    title: "Entrümpelung Kellerräume",
+    description: "Komplette Kellerentrümpelung eines Mehrfamilienhauses mit fachgerechter Entsorgung.",
+    location: "Berlin-Neukölln",
     date: "Januar 2025",
     icon: TruckIcon
   },
@@ -57,8 +57,8 @@ const projects = [
     id: 4,
     title: "Seniorenumzug mit Betreuung",
     description: "Einfühlsamer Umzug für Senioren mit kompletter Betreuung und Einrichtungsservice.",
-    location: "Frankfurt am Main",
-    date: "Dezember 2023",
+    location: "Potsdam",
+    date: "Dezember 2024",
     icon: PackageIcon
   }
 ]

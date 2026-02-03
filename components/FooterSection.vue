@@ -12,7 +12,7 @@
             </div>
           </div>
           <p class="text-sidebar-foreground/80 leading-relaxed">
-            Ihr zuverlässiger Partner für professionelle Entrümpelung und Entsorgung in Berlin & Umgebung.
+            Ihr zuverlässiger Partner für professionelle Umzüge, Entrümpelung und Entsorgung in Berlin & Umgebung.
           </p>
           <div class="flex space-x-4">
             <div class="bg-sidebar-accent/10 p-2 rounded-full">

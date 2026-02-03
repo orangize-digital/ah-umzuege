@@ -46,17 +46,17 @@ import { Star, User } from 'lucide-vue-next'
 const testimonials = [
   {
     name: 'Familie Schmidt',
-    location: 'Berlin → München',
+    location: 'Berlin-Kreuzberg',
     quote: 'Absolut professioneller Service! Das Team war pünktlich, freundlich und sehr sorgfältig mit unseren Möbeln. Würden wir jederzeit wieder beauftragen.'
   },
   {
     name: 'Thomas Weber',
-    location: 'Hamburg → Frankfurt',
+    location: 'Berlin-Mitte',
     quote: 'Unser Firmenumzug lief dank A.H Entrümpelung & Umzüge reibungslos ab. Minimale Ausfallzeiten und alles wurde termingerecht erledigt. Sehr empfehlenswert!'
   },
   {
     name: 'Maria Hoffmann',
-    location: 'Köln → Stuttgart',
+    location: 'Potsdam',
     quote: 'Besonders beeindruckt hat mich der Verpackungsservice. Alles kam unbeschädigt an. Das Preis-Leistungs-Verhältnis ist ausgezeichnet.'
   }
 ]

@@ -6,8 +6,8 @@
           Über <span class="text-orange-600">A.H Entrümpelung & Umzüge</span>
         </h1>
         <p class="text-xl text-gray-600 mb-12 leading-relaxed">
-          Wir sind Ihr vertrauensvoller Partner für Entrümpelung und Entsorgung in Berlin & Umgebung.
-          Mit Erfahrung, Professionalität und einem persönlichen Service machen wir Ihre Entrümpelung stressfrei.
+          Wir sind Ihr vertrauensvoller Partner für Umzüge, Entrümpelung und Entsorgung in Berlin & Umgebung.
+          Mit Erfahrung, Professionalität und einem persönlichen Service machen wir Ihren Umzug und Ihre Entrümpelung stressfrei.
         </p>
 
         <!-- Stats Grid -->
@@ -44,7 +44,7 @@
             <div class="bg-orange-100 p-4 rounded-full mb-3">
               <CheckCircleIcon class="h-8 w-8 text-orange-600" />
             </div>
-            <span class="text-gray-700 font-medium text-center">Deutschlandweit</span>
+            <span class="text-gray-700 font-medium text-center">Berlin & Umgebung</span>
           </div>
           <div class="flex flex-col items-center">
             <div class="bg-orange-100 p-4 rounded-full mb-3">

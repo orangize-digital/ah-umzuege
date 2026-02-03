@@ -18,15 +18,12 @@
         <div class="space-y-8">
           <div class="space-y-4">
             <h1 class="text-4xl lg:text-6xl font-bold text-white leading-tight drop-shadow-lg">
-              Müssen Sie Ihre <br>
-              <span class="inline-block relative overflow-hidden" style="min-width: 280px;">
-                <span :class="['animated-word text-primary', { 'flip': isAnimating }]">{{ currentWord }}</span><br>
-              </span>
-              <span class="text-white">entrümpeln?</span>
+              Ihr Partner für <br>
+              <span class="text-primary">Umzüge & Entrümpelung</span>
             </h1>
             <p class="text-xl text-white/90 leading-relaxed drop-shadow-md">
-              Professionelle Entrümpelung in Berlin & Umgebung.
-              Schnell, zuverlässig und stressfrei – mit Zuverlässigkeit und Sorgfalt.
+              Professionelle Umzüge und Entrümpelung in Berlin & Umgebung.
+              Schnell, zuverlässig und stressfrei – mit Sorgfalt und Erfahrung.
             </p>
           </div>
 
@@ -160,33 +157,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref } from 'vue'
 import { Phone, Shield, Clock, Star, Send, MessageCircle } from 'lucide-vue-next'
-
-const words = ['Wohnung', 'Keller', 'Dachboden', 'Garage', 'Büro', 'Haus', 'Geschäft', 'Lager']
-const currentWord = ref(words[0])
-const isAnimating = ref(false)
-let wordIndex = 0
-let intervalId = null
-
-onMounted(() => {
-  intervalId = setInterval(() => {
-    isAnimating.value = true
-    setTimeout(() => {
-      wordIndex = (wordIndex + 1) % words.length
-      currentWord.value = words[wordIndex]
-    }, 200) // Change word in the middle of animation when opacity is 0
-    setTimeout(() => {
-      isAnimating.value = false
-    }, 400)
-  }, 2000)
-})
-
-onUnmounted(() => {
-  if (intervalId) {
-    clearInterval(intervalId)
-  }
-})
 
 const form = ref({
   name: '',
@@ -251,33 +223,3 @@ Nachricht: ${form.value.message || 'Keine Nachricht angegeben'}
 }
 </script>
 
-<style scoped>
-.animated-word {
-  display: inline-block;
-  transform-style: preserve-3d;
-  transition: all 0.3s ease-in-out;
-}
-
-.animated-word.flip {
-  animation: cubeFlip 0.4s ease-in-out;
-}
-
-@keyframes cubeFlip {
-  0% {
-    transform: rotateX(0deg);
-    opacity: 1;
-  }
-  50% {
-    transform: rotateX(90deg);
-    opacity: 0;
-  }
-  51% {
-    transform: rotateX(-90deg);
-    opacity: 0;
-  }
-  100% {
-    transform: rotateX(0deg);
-    opacity: 1;
-  }
-}
-</style>
