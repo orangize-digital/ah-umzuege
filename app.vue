@@ -8,6 +8,9 @@
         style="display:none;visibility:hidden"
       ></iframe>
     </noscript>
+    <noscript>
+      <img src="//p.tgtag.io/event?property_id=tg-023158-001&event_name=pageview&no_script=1" width="1" height="1" border="0" />
+    </noscript>
     <NuxtPage />
   </div>
 </template>

@@ -30,6 +30,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           tagPosition: 'head'
         },
         {
+          innerHTML: `var dataTrafficGuard = dataTrafficGuard || [];
+dataTrafficGuard.push(['property', 'tg-023158-001']);
+dataTrafficGuard.push(['event','pageview']);
+(function() {var tg = document.createElement('script'); tg.type = 'text/javascript'; tg.async = true; tg.src = '//tgtag.io/tg.js?pid=tg-023158-001';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tg, s);})();`,
+          type: 'text/javascript',
+          tagPosition: 'bodyOpen'
+        },
+        {
           type: 'application/ld+json',
           innerHTML: JSON.stringify({
             "@context": "https://schema.org",
