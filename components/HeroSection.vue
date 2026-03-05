@@ -3,8 +3,8 @@
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
       <img
-        src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&auto=format&fit=crop"
-        alt="Professional moving service background"
+        src="/ah-umzuege1.jpeg"
+        alt="A.H Entrümpelung & Umzüge Team bei der Arbeit"
         class="w-full h-full object-cover"
       />
       <!-- Dark Overlay -->
@@ -57,73 +57,64 @@
         </div>
 
         <!-- Contact Form -->
-        <div class="bg-card rounded-2xl shadow-xl p-8 border border-border">
-          <h3 class="text-2xl font-bold text-card-foreground mb-6">Schnellanfrage</h3>
+        <div class="bg-white/10 backdrop-blur-md rounded-2xl shadow-xl p-8 border border-white/20">
+          <h3 class="text-2xl font-bold text-white mb-6">Schnellanfrage</h3>
           <form @submit.prevent="submitForm" class="space-y-4">
             <div>
-              <label for="name" class="block text-sm font-medium text-card-foreground mb-2">Name *</label>
               <input
                 type="text"
                 id="name"
                 v-model="form.name"
                 required
-                class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
-                placeholder="Ihr Name"
+                class="w-full px-4 py-3 border border-white/30 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-white/10 text-white placeholder-white/60"
+                placeholder="Ihr Name *"
               >
             </div>
 
-            <div>
-              <label for="email" class="block text-sm font-medium text-card-foreground mb-2">E-Mail *</label>
+            <div class="grid grid-cols-2 gap-4">
               <input
                 type="email"
                 id="email"
                 v-model="form.email"
                 required
-                class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
-                placeholder="ihre.email@beispiel.de"
+                class="w-full px-4 py-3 border border-white/30 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-white/10 text-white placeholder-white/60"
+                placeholder="E-Mail *"
               >
-            </div>
-
-            <div>
-              <label for="phone" class="block text-sm font-medium text-card-foreground mb-2">Telefon *</label>
               <input
                 type="tel"
                 id="phone"
                 v-model="form.phone"
-                required
-                class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
-                placeholder="+49 151 234 567 89"
+                class="w-full px-4 py-3 border border-white/30 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-white/10 text-white placeholder-white/60"
+                placeholder="Telefon"
               >
             </div>
 
             <div>
-              <label for="service" class="block text-sm font-medium text-card-foreground mb-2">Serviceart *</label>
               <select
                 id="service"
                 v-model="form.service"
                 required
-                class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
+                class="w-full px-4 py-3 border border-white/30 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-white/10 text-white/60"
               >
-                <option value="">Bitte wählen Sie einen Service</option>
-                <option value="Entrümpelung">Entrümpelung</option>
-                <option value="Firmenumzug">Firmenumzug</option>
-                <option value="Haushaltsauflösung">Haushaltsauflösung</option>
-                <option value="Wohnungsauflösung">Wohnungsauflösung</option>
-                <option value="Entsorgung">Entsorgung</option>
-                <option value="Transport">Transport</option>
-                <option value="Renovierungsarbeiten">Renovierungsarbeiten</option>
-                <option value="Sonstiges">Sonstiges</option>
+                <option value="" class="text-gray-900">Service wählen</option>
+                <option value="Entrümpelung" class="text-gray-900">Entrümpelung</option>
+                <option value="Firmenumzug" class="text-gray-900">Firmenumzug</option>
+                <option value="Haushaltsauflösung" class="text-gray-900">Haushaltsauflösung</option>
+                <option value="Wohnungsauflösung" class="text-gray-900">Wohnungsauflösung</option>
+                <option value="Entsorgung" class="text-gray-900">Entsorgung</option>
+                <option value="Transport" class="text-gray-900">Transport</option>
+                <option value="Renovierungsarbeiten" class="text-gray-900">Renovierungsarbeiten</option>
+                <option value="Sonstiges" class="text-gray-900">Sonstiges</option>
               </select>
             </div>
 
             <div>
-              <label for="message" class="block text-sm font-medium text-card-foreground mb-2">Nachricht</label>
               <textarea
                 id="message"
                 v-model="form.message"
                 rows="3"
-                class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-background text-foreground"
-                placeholder="Beschreiben Sie kurz Ihre Entrümpelung..."
+                class="w-full px-4 py-3 border border-white/30 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary bg-white/10 text-white placeholder-white/60"
+                placeholder="Beschreiben Sie kurz Ihr Projekt..."
               ></textarea>
             </div>
 
@@ -133,10 +124,10 @@
                 id="datenschutz-hero"
                 v-model="form.datenschutz"
                 required
-                class="mt-1 h-4 w-4 text-primary focus:ring-primary border-border rounded bg-background"
+                class="mt-1 h-4 w-4 text-primary focus:ring-primary border-white/30 rounded bg-white/10"
               >
-              <label for="datenschutz-hero" class="ml-3 text-sm text-card-foreground">
-                Ich stimme der Verarbeitung meiner Daten gemäß der
+              <label for="datenschutz-hero" class="ml-3 text-sm text-white/80">
+                Ich stimme der
                 <NuxtLink to="/datenschutz" target="_blank" class="text-primary hover:text-primary/80 underline">Datenschutzerklärung</NuxtLink> zu. *
               </label>
             </div>

@@ -46,8 +46,8 @@
         <!-- Image -->
         <div class="relative">
           <img 
-            src="/public/umzug-team.png" 
-            alt="Unser professionelles Team" 
+            src="/ah-umzuege.jpeg"
+            alt="A.H Entrümpelung & Umzüge Team beim Umzug" 
             class="rounded-2xl shadow-2xl"
           />
           <div class="absolute -top-6 -right-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-lg">
